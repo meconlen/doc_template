@@ -6,7 +6,7 @@ on:
    - 'v*'
 jobs:
   create-release:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     container: texlive/texlive
